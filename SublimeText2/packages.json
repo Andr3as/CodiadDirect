@@ -1,0 +1,19 @@
+{
+	"schema_version": "2.0",
+	"packages": [
+		{
+			"name": "CodiadDirect",
+			"description": "Edit files from your Codiad-Server locally on your Computer with Sublime Text",
+			"author": "Andr3as",
+			"details": "https://github.com/Andr3as/CodiadDirect",
+			"homepage": "http://andrano.de/Plugins/",
+			"labels": ["file navigation", "offline"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/Andr3as/CodiadDirect/tree/master"
+				}
+			]
+		}
+	]
+}

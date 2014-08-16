@@ -1,0 +1,12 @@
+[
+  	{
+        "command": "codiad_direct",
+        "args": { "action": "open_file" },
+        "caption": "CodiadDirect: Open File"
+    },
+    {
+        "command": "codiad_direct", 
+        "args": { "action": "save_file" },
+        "caption": "CodiadDirect: Save File"
+    }
+]

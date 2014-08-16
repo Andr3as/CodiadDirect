@@ -1,0 +1,16 @@
+{
+	// Codiad credentials
+	"codiad_username": "",
+	"codiad_password": "",
+	// Url of CodiadDirect plugin of your installation
+	"codiad_url": "",
+	
+	// Basic authentication parameter
+	"basic_authentication": false,
+	"basic_username": "",
+	"basic_password": "",
+
+	// Connection parameter
+	"timeout": 20,
+	"ssl_verify": true
+}

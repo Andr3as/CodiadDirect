@@ -1,0 +1,59 @@
+[
+    {
+        "caption": "File",
+        "mnemonic": "F",
+        "id": "file",
+        "children":
+        [
+            { "caption": "-"},
+            {
+                "caption": "CodiadDirect",
+                "children":
+                [
+                    {
+                        "command": "codiad_direct",
+                        "args": { "action": "open_file" },
+                        "mnemonic": "O",
+                        "caption": "Open File from Codiad"
+                    },
+                    {
+                        "command": "codiad_direct", 
+                        "args": { "action": "save_file" },
+                        "mnemonic": "S",
+                        "caption": "Save File in Codiad"
+                    }
+                ]
+            },
+            { "caption": "-", "id": "window" }
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "CodiadDirect",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/CodiadDirect/CodiadDirect.sublime-settings"
+                                },
+                                "caption": "Settings - Default"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
