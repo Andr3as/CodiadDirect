@@ -28,11 +28,6 @@ class CodiadDirectCommand(sublime_plugin.TextCommand):
 		
 		self.checkCodiadUrl()
 
-		#if action == 'open_file':
-		#	
-		#elif action == 'save_file':
-		#	self.saveFile()
-
 	def openFile(self):
 		self.getUsername()
 		
@@ -332,11 +327,6 @@ class ApiCall(threading.Thread):
 				self.error  = "HTTP Status Code: " + str(r.status_code)
 				self.result = False
 				return
-			#if r.cookies:
-			#	self.cookies = r.cookies
-			#	print self.cookies
-			#if self.cookies == None:
-			#	print "cookies are None"
 
 			print r.text
 			self.result = r.json()

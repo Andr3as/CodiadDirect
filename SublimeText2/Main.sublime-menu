@@ -46,7 +46,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/CodiadDirect/CodiadDirect.sublime-settings"
+                                    "file": "CodiadDirect.sublime-settings"
                                 },
                                 "caption": "Settings - Default"
                             }
